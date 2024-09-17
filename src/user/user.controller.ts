@@ -10,7 +10,7 @@ import {
 import { User } from '@prisma/client';
 import { GetUser } from '../auth/decorator';
 import { JwtGuard } from '../auth/guard';
-import { EditUserDto } from './dto/exit-user.dto';
+import { EditUserDto } from './dto/edit-user.dto';
 import { UserService } from './user.service';
 
 @UseGuards(JwtGuard)
